@@ -1,0 +1,6 @@
+package burger_ham;
+
+public class burgerSet {
+	String name;
+	
+}

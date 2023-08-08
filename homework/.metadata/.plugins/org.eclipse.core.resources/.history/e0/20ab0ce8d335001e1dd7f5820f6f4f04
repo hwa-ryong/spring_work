@@ -1,0 +1,14 @@
+package burger_ham_main;
+
+import org.springframework.context.support.AbstractApplicationContext;
+
+public class hamburger_main {
+
+	public static void main(String[] args) {
+		
+		AbstractApplicationContext context = 
+			new ClassPathXmlApplicationContext("burger/burger.xml");
+
+	}
+
+}

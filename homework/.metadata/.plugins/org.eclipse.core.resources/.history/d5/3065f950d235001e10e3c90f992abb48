@@ -1,0 +1,12 @@
+package burger_ham;
+
+public class BurgerSet {
+	String name;
+	Burger bg;
+	Drink dr;
+	Side sd;
+	Price pr;
+	Setname sn;
+	
+	
+}

@@ -1,0 +1,9 @@
+package burger_ham;
+
+public class BurgerSet {
+	String name, type;
+	int cal, won;
+	Setname sn;
+	
+	
+}

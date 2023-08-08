@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.springframework.org/schema/beans"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean class="burger_ham.BurgerSet" name="set1">
+		<property name="name" value=빅맥라지세트 />		<property name="bg" ref="bg2" />
+		<property name="dr" value=빅맥라지세트 />
+		<property name="sd" value=빅맥라지세트 />
+		<property name="sn" value=빅맥라지세트 />
+		<property name="pr" value=빅맥라지세트 />
+	</bean>
+
+
+
+
+
+
+
+
+
+
+</beans>

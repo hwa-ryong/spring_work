@@ -1,0 +1,6 @@
+package burger_ham;
+
+public class Side {
+	String name;
+	int cnt;
+}

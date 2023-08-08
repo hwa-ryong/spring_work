@@ -1,0 +1,53 @@
+package di_p.main;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import di_p.Bicycle;
+import di_p.HandPhone;
+import di_p.Handle;
+import di_p.Wheel;
+
+public class Tal_main {
+
+	public static void main(String[] args) {
+		
+		Bicycle b1 = new Bicycle();
+		Bicycle pocari = new Bicycle();
+		Handle h1 = new Handle();
+		Handle h2 = new Handle();
+		Wheel w1 = new Wheel();
+		Wheel w2 = new Wheel();
+		
+		//세발 자전거
+		b1.setName("세발자전거");
+		w1.setName("바퀴");
+		w1.setBaqui(3);
+		b1.setWheel(w1);
+		h1.setName("핸들");
+		b1.setHandle(h1);
+		
+		//포카리자전거
+		pocari.setName("포카리자전거");
+		w2.setName("바퀴");
+		w2.setBaqui(2);
+		poc
+		
+		
+	
+		System.out.println(b1);
+	
+		
+		AbstractApplicationContext context =
+				new ClassPathXmlApplicationContext("di_xml/first.xml");
+		
+		Bicycle b2 = (Bicycle)context.getBean("b2");
+		System.out.println(b2);
+		
+		
+		
+		
+
+	}
+
+}

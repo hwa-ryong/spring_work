@@ -1,0 +1,20 @@
+package burger_ham_main;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import burger_ham.BurgerSet;
+
+public class hamburger_main {
+
+	public static void main(String[] args) {
+		
+		AbstractApplicationContext context = 
+			new ClassPathXmlApplicationContext("burger/burger.xml");
+		
+		BurgerSet bg1 = (BurgerSet)context.getBean("bg1");
+		System.out.println(bg1);
+
+	}
+
+}

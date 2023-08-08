@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.springframework.org/schema/beans"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean class="burger_ham.BurgerSet" name="set1">
+		<property name="name" value="햄버거세트" />		<property name="bg" ref="bg2" />
+		<property name="dr" ref="dr2" />
+		<property name="sd" ref="sd2" />
+		<property name="sn" ref="sn2" />
+		<property name="pr" ref="pr2" />
+	</bean>
+	
+	<bean class="burger_ham.Burger" name="bg2">
+		<property name="name" value="빅맥" />
+		<property name="type" value="고기" />
+		<property name="cal" value="583" />
+	</bean>
+	
+	<bean class="burger_ham.Drink" name="dr2">
+		<property name="name" value="스프라이트" />
+		<property name="type" value="탄산" />
+		<property name="size" value="라지" />
+	</bean>
+	
+	<bean class="burger_ham.Side" name="sd2">
+		<property name="name" value="감자튀김" />
+		<property name="cnt" value="1" />
+	</bean>
+	
+	<bean class="burger_ham.Setname" name="sn2">
+		<property name="name" value="빅맥라지세트" />
+	</bean>
+	
+	<bean class="burger_ham.Price" name="pr2">
+		<property name="won" value="8300" />
+	</bean>
+
+
+
+
+
+
+
+
+
+
+</beans>

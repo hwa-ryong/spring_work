@@ -1,0 +1,6 @@
+package burger_ham;
+
+public class Burger {
+	String name, type;
+	int cal;
+}
