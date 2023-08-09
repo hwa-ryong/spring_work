@@ -13,7 +13,7 @@ public class Price {
 
 	@Override
 	public String toString() {
-		return "Price [won=" + won + "]";
+		return won + "원";
 	}
 	
 	

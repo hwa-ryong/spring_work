@@ -20,7 +20,7 @@ public class Side {
 	
 	@Override
 	public String toString() {
-		return "Side [name=" + name + ", cnt=" + cnt + "]";
+		return name + cnt;
 	}
 	
 }

@@ -14,8 +14,10 @@ public class hamburger_main {
 		
 		BurgerSet set1 = (BurgerSet)context.getBean("set1");
 		BurgerSet set2 = (BurgerSet)context.getBean("set2");
+		BurgerSet set3 = (BurgerSet)context.getBean("set3");
 		System.out.println(set1);
 		System.out.println(set2);
+		System.out.println(set3);
 		
 	}
 

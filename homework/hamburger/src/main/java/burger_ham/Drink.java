@@ -30,7 +30,7 @@ public class Drink {
 
 	@Override
 	public String toString() {
-		return "Drink [name=" + name + ", size=" + size + ", type=" + type + "]";
+		return name + size + type;
 	}
 	
 	

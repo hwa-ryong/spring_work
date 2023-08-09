@@ -49,8 +49,8 @@ public class BurgerSet {
 	
 	@Override
 	public String toString() {
-		return "BurgerSet [name=" + name + ", bg=" + bg + ", dr=" + dr + ", sd=" + sd + ", sn=" + sn + ", pr=" + pr
-				+ "]";
+		return name + "\n"+ "bg=" + bg + " " +  "dr=" + dr + " " + "\n" + 
+					"sd=" + sd + " " + "sn=" + sn + "\n" + "pr=" + pr;
 	}
 	
 	

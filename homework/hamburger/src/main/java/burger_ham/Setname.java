@@ -13,7 +13,7 @@ public class Setname {
 
 	@Override
 	public String toString() {
-		return "Setname [name=" + name + "]";
+		return name;
 	}
 	
 }

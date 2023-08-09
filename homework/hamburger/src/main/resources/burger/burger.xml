@@ -72,5 +72,40 @@ https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 	<bean class="burger_ham.Price" name="pr3">
 		<property name="won" value="6500" />
 	</bean>
+	
+	
+	<bean class="burger_ham.BurgerSet" name="set3">
+		<property name="name" value="햄버거세트" />
+		<property name="bg" ref="bg4" />
+		<property name="dr" ref="dr4" />
+		<property name="sd" ref="sd4" />
+		<property name="sn" ref="sn4" />
+		<property name="pr" ref="pr4" />
+	</bean>
+	
+	<bean class="burger_ham.Burger" name="bg4">
+		<property name="name" value="1955버거" />
+		<property name="type" value="고기" />
+		<property name="cal" value="508" />
+	</bean>
+	
+	<bean class="burger_ham.Drink" name="dr4">
+		<property name="name" value="아이스티" />
+		<property name="type" value="아이스" />
+		<property name="size" value="라지" />
+	</bean>
+	
+	<bean class="burger_ham.Side" name="sd4">
+		<property name="name" value="맥플러리" />
+		<property name="cnt" value="1" />
+	</bean>
+	
+	<bean class="burger_ham.Setname" name="sn4">
+		<property name="name" value="1955버거라지세트" />
+	</bean>
+	
+	<bean class="burger_ham.Price" name="pr4">
+		<property name="won" value="7500" />
+	</bean>
 
 </beans>

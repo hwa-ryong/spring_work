@@ -26,7 +26,7 @@ public class Burger {
 	
 	@Override
 	public String toString() {
-		return "Burger [name=" + name + ", type=" + type + ", cal=" + cal + "]";
+		return name + type + cal;
 	}
 	
 	
