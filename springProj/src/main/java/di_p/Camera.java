@@ -4,17 +4,6 @@ public class Camera {
 	
 	String name;
 	int pixel;
-	
-	
-	public Camera(String name, int pixel) {
-		super();
-		this.name = name;
-		this.pixel = pixel;
-	}
-	
-	public Camera() {
-		System.out.println("기본 생성자");
-	}
 
 	
 	public String getName() {
@@ -22,7 +11,7 @@ public class Camera {
 	}
 
 	public void setName(String name) {
-		System.out.println("Camera.setName():"+name);
+		
 		this.name = name;
 	}
 
@@ -32,7 +21,7 @@ public class Camera {
 
 
 	public void setPixel(int pixel) {
-		System.out.println("Camera.setPixel():"+pixel);
+		
 		this.pixel = pixel;
 	}
 
