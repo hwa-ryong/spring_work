@@ -1,8 +1,0 @@
-package di_p;
-
-public interface BicycleInterface {
-	
-	String go;
-	String repair;
-	String tumble;
-}

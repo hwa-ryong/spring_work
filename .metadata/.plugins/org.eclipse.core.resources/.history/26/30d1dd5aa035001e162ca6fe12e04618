@@ -1,6 +1,0 @@
-package di_p;
-
-public class bicycle {
-	String name;
-	String wheel;
-}

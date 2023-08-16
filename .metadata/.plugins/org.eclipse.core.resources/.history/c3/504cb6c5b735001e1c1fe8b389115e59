@@ -1,9 +1,0 @@
-package di_p;
-
-public interface BicycleInterface {
-	
-	void go {
-		System.out.println("자전거가 앞으로 간다.");
-	}
-	
-}
